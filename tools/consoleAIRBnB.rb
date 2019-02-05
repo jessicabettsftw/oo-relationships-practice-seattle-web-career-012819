@@ -46,4 +46,4 @@ denaTrip = Trip.new(dena, ny)
 #puts Guest.pro_traveller
 
 #test
-puts Guest.find_all_by_name("jessica")
+#puts Guest.find_all_by_name("jessica")
