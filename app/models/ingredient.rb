@@ -14,4 +14,14 @@ class Ingredient
     @@all
   end
 
+  def self.find_all_by_name(name)
+    self.all.select do |ingredient|
+      ingredient.name.downcase.include? name.downcase
+    end
+  end
+
+  def bakery
+    @dessert.bakery
+  end
+
 end
