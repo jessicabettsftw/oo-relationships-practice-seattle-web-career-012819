@@ -1,10 +1,10 @@
 class Trip
-  attr_reader :name, :listing
+  attr_reader :guest, :listing
 
   @@all =[]
 
-  def initialize(name, listing)
-    @name = name
+  def initialize(guest, listing)
+    @guest = guest
     @listing = listing
     @@all << self
   end
