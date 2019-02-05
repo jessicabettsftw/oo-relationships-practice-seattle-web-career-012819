@@ -15,4 +15,12 @@ class Ride
     @@all
   end
 
+  def self.average_distance
+    total = 0
+    self.all.each do |ride|
+      total += ride.distance
+    end
+    total/self.all.length
+  end
+
 end
