@@ -43,6 +43,6 @@ brownIngredients = Ingredient.find_all_by_name("brown")
 #puts jPalace.average_calories
 
 #checks to see if shopping list runs
-puts jPalace.shopping_list
+#puts jPalace.shopping_list
 
 #Pry.start
